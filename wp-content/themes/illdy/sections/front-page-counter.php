@@ -36,8 +36,8 @@ endif;
 					'after_title'	=> ''
 				);
 
-				the_widget( 'Illdy_Widget_Counter', 'title='. __( 'Ouvintes', 'illdy' ) .'&data_from=1&data_to=260&data_speed=2000&data_refresh_interval=100', $the_widget_args );
-				the_widget( 'Illdy_Widget_Counter', 'title='. __( 'Programas', 'illdy' ) .'&data_from=1&data_to=120&data_speed=2000&data_refresh_interval=100', $the_widget_args );
+				the_widget( 'Illdy_Widget_Counter', 'title='. __( 'Estudos', 'illdy' ) .'&data_from=1&data_to=260&data_speed=2000&data_refresh_interval=100', $the_widget_args );
+				the_widget( 'Illdy_Widget_Counter', 'title='. __( 'Musicas', 'illdy' ) .'&data_from=1&data_to=120&data_speed=2000&data_refresh_interval=100', $the_widget_args );
 				the_widget( 'Illdy_Widget_Counter', 'title='. __( 'Sermões', 'illdy' ) .'&data_from=1&data_to=260&data_speed=2000&data_refresh_interval=100', $the_widget_args );
 			endif;
 			?>
