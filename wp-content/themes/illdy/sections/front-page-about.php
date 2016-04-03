@@ -43,9 +43,9 @@ $general_entry = get_theme_mod( 'illdy_about_general_entry', esc_html__( 'It is 
 						'after_title'	=> ''
 					);
 
-					the_widget( 'Illdy_Widget_Skill', 'title='. __( 'Typography', 'illdy' ) .'&percentage=60&icon=fa-font&color=#f18b6d', $the_widget_args );
-					the_widget( 'Illdy_Widget_Skill', 'title='. __( 'Design', 'illdy' ) .'&percentage=82&icon=fa-pencil&color=#f1d204', $the_widget_args );
-					the_widget( 'Illdy_Widget_Skill', 'title='. __( 'Development', 'illdy' ) .'&percentage=86&icon=fa-code&color=#6a4d8a', $the_widget_args );
+					the_widget( 'Illdy_Widget_Skill', 'title='. __( 'Natal', 'illdy' ) .'&percentage=60&icon=fa-users&color=#f18b6d', $the_widget_args );
+					the_widget( 'Illdy_Widget_Skill', 'title='. __( 'Rio Grande do Norte', 'illdy' ) .'&percentage=82&icon=fa-users&color=#f1d204', $the_widget_args );
+					the_widget( 'Illdy_Widget_Skill', 'title='. __( 'Brasil', 'illdy' ) .'&percentage=86&icon=fa-users&color=#6a4d8a', $the_widget_args );
 				endif;
 				?>
 			</div><!--/.row-->

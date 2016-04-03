@@ -7,7 +7,7 @@
  */
 ?>
 <?php
-$general_title = get_theme_mod( 'illdy_testimonials_general_title', esc_html__( 'Testimonials', 'illdy' ) );
+$general_title = get_theme_mod( 'illdy_testimonials_general_title', esc_html__( 'Declarações dos ouvintes', 'illdy' ) );
 $general_background_image = get_theme_mod( 'illdy_testimonials_general_background_image', '' );
 $number_of_posts = get_theme_mod( 'illdy_testimonials_number_of_posts', absint( 4 ) );
 ?>
@@ -76,7 +76,7 @@ $number_of_posts = get_theme_mod( 'illdy_testimonials_number_of_posts', absint( 
 									<img src="<?php echo get_template_directory_uri(); ?>/layout/images/front-page/front-page-testimonial-1.jpg" alt="<?php _e( 'Jane Smith', 'illdy' ); ?>" title="<?php _e( 'Jane Smith', 'illdy' ); ?>" />
 								</div><!--/.testimonial-image-->
 								<div class="testimonial-content">
-									<blockquote><q><?php _e( 'Awesome theme with great design and helpfull support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme with a lot of of features to choose from. You can customize whatever section you  want and you can rest assure that no matter what device your website is viewed on – it looks  great.', 'illdy' ); ?></q></blockquote>
+									<blockquote><q><?php _e( 'Ainda assim, existem dúvidas a respeito de como o surgimento do comércio virtual possibilita uma melhor visão global das condições financeiras e administrativas exigidas.', 'illdy' ); ?></q></blockquote>
 								</div><!--/.testimonial-content-->
 								<div class="testimonial-meta">
 									<?php _e( 'Jane Smith', 'illdy' ); ?>
@@ -87,7 +87,7 @@ $number_of_posts = get_theme_mod( 'illdy_testimonials_number_of_posts', absint( 
 									<img src="<?php echo get_template_directory_uri(); ?>/layout/images/front-page/front-page-testimonial-2.jpg" alt="<?php _e( 'Jane Smith', 'illdy' ); ?>" title="<?php _e( 'Jane Smith', 'illdy' ); ?>" />
 								</div><!--/.testimonial-image-->
 								<div class="testimonial-content">
-									<blockquote><q><?php _e( 'Awesome theme with great design and helpfull support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme with a lot of of features to choose from. You can customize whatever section you  want and you can rest assure that no matter what device your website is viewed on – it looks  great.', 'illdy' ); ?></q></blockquote>
+									<blockquote><q><?php _e( 'Neste sentido, o entendimento das metas propostas promove a alavancagem de alternativas às soluções ortodoxas.', 'illdy' ); ?></q></blockquote>
 								</div><!--/.testimonial-content-->
 								<div class="testimonial-meta">
 									<?php _e( 'Jane Smith', 'illdy' ); ?>
@@ -98,7 +98,7 @@ $number_of_posts = get_theme_mod( 'illdy_testimonials_number_of_posts', absint( 
 									<img src="<?php echo get_template_directory_uri(); ?>/layout/images/front-page/front-page-testimonial-3.jpg" alt="<?php _e( 'Jane Smith', 'illdy' ); ?>" title="<?php _e( 'Jane Smith', 'illdy' ); ?>" />
 								</div><!--/.testimonial-image-->
 								<div class="testimonial-content">
-									<blockquote><q><?php _e( 'Awesome theme with great design and helpfull support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme with a lot of of features to choose from. You can customize whatever section you  want and you can rest assure that no matter what device your website is viewed on – it looks  great.', 'illdy' ); ?></q></blockquote>
+									<blockquote><q><?php _e( 'Caros amigos, o julgamento imparcial das eventualidades pode nos levar a considerar a reestruturação dos relacionamentos verticais entre as hierarquias.', 'illdy' ); ?></q></blockquote>
 								</div><!--/.testimonial-content-->
 								<div class="testimonial-meta">
 									<?php _e( 'Jane Smith', 'illdy' ); ?>
@@ -109,7 +109,7 @@ $number_of_posts = get_theme_mod( 'illdy_testimonials_number_of_posts', absint( 
 									<img src="<?php echo get_template_directory_uri(); ?>/layout/images/front-page/front-page-testimonial-4.jpg" alt="<?php _e( 'Jane Smith', 'illdy' ); ?>" title="<?php _e( 'Jane Smith', 'illdy' ); ?>" />
 								</div><!--/.testimonial-image-->
 								<div class="testimonial-content">
-									<blockquote><q><?php _e( 'Awesome theme with great design and helpfull support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme with a lot of of features to choose from. You can customize whatever section you  want and you can rest assure that no matter what device your website is viewed on – it looks  great.', 'illdy' ); ?></q></blockquote>
+									<blockquote><q><?php _e( 'As experiências acumuladas demonstram que o entendimento das metas propostas auxilia a preparação e a composição do sistema de participação geral.', 'illdy' ); ?></q></blockquote>
 								</div><!--/.testimonial-content-->
 								<div class="testimonial-meta">
 									<?php _e( 'Jane Smith', 'illdy' ); ?>
