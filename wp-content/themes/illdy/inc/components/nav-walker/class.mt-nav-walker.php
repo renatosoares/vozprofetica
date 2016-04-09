@@ -140,12 +140,12 @@ if(!class_exists('MTL_Extended_Menu_Walker') ) {
                 if ( $menu_class )
                     $fb_output .= ' class="' . $menu_class . '"';
                 $fb_output .= '<li><a href="'. esc_url( home_url() ) .'" title="'. esc_attr( 'Home', 'illdy' ) .'">'. esc_html( 'Home', 'illdy' ) .'</a></li>';
-                $fb_output .= '<li><a href="#projects" title="'. esc_attr( 'Projects', 'illdy' ) .'">'. esc_html( 'Projects', 'illdy' ) .'</a></li>';
-                $fb_output .= '<li><a href="#testimonials" title="'. esc_attr( 'Testimonials', 'illdy' ) .'">'. esc_html( 'Testimonials', 'illdy' ) .'</a></li>';
-                $fb_output .= '<li><a href="#services" title="'. esc_attr( 'Services', 'illdy' ) .'">'. esc_html( 'Services', 'illdy' ) .'</a></li>';
-                $fb_output .= '<li><a href="#latest-news" title="'. esc_attr( 'News', 'illdy' ) .'">'. esc_html( 'News', 'illdy' ) .'</a></li>';
-                $fb_output .= '<li><a href="#team" title="'. esc_attr( 'Team', 'illdy' ) .'">'. esc_html( 'Team', 'illdy' ) .'</a></li>';
-                $fb_output .= '<li><a href="#contact-us" title="'. esc_attr( 'Contact', 'illdy' ) .'">'. esc_html( 'Contact', 'illdy' ) .'</a></li>';
+                $fb_output .= '<li><a href="#projects" title="'. esc_attr( 'Parceiros', 'illdy' ) .'">'. esc_html( 'Parceiros', 'illdy' ) .'</a></li>';
+                $fb_output .= '<li><a href="#testimonials" title="'. esc_attr( 'Palavra de Fé', 'illdy' ) .'">'. esc_html( 'Palavra de Fé', 'illdy' ) .'</a></li>';
+                // $fb_output .= '<li><a href="#services" title="'. esc_attr( 'Programação', 'illdy' ) .'">'. esc_html( 'Programação', 'illdy' ) .'</a></li>';
+                $fb_output .= '<li><a href="#latest-news" title="'. esc_attr( 'Novidades', 'illdy' ) .'">'. esc_html( 'Novidades', 'illdy' ) .'</a></li>';
+                $fb_output .= '<li><a href="#team" title="'. esc_attr( 'Equipe', 'illdy' ) .'">'. esc_html( 'Equipe', 'illdy' ) .'</a></li>';
+                $fb_output .= '<li><a href="#contact-us" title="'. esc_attr( 'Contato', 'illdy' ) .'">'. esc_html( 'Contato', 'illdy' ) .'</a></li>';
                 if ( $container )
                     $fb_output .= '</' . $container . '>';
                 echo $fb_output;

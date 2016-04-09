@@ -13,7 +13,9 @@
  *
  * @package WordPress
  */
-
+ // definindo domínio
+ //define('WP_HOME','http://www.renatosoares.net.br/vozprofetica');
+ //define('WP_SITEURL','http://renatosoares.net.br/vozprofetica');
 // evita que wordpress peça para subir plugins e temas via ftp
  define('FS_METHOD','direct');
 

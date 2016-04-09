@@ -7,7 +7,7 @@
  */
 ?>
 <?php
-$general_title = get_theme_mod( 'illdy_testimonials_general_title', esc_html__( 'Declarações dos ouvintes', 'illdy' ) );
+$general_title = get_theme_mod( 'illdy_testimonials_general_title', esc_html__( 'Palavra de Fé', 'illdy' ) );
 $general_background_image = get_theme_mod( 'illdy_testimonials_general_background_image', '' );
 $number_of_posts = get_theme_mod( 'illdy_testimonials_number_of_posts', absint( 4 ) );
 ?>
