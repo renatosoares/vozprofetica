@@ -14,23 +14,27 @@
  * @package WordPress
  */
  // definindo domínio
- //define('WP_HOME','http://www.renatosoares.net.br/vozprofetica');
- //define('WP_SITEURL','http://renatosoares.net.br/vozprofetica');
+ //define('WP_HOME','http://www.vozprofetica.net.br');
+ //define('WP_SITEURL','http://www.vozprofetica.net.br');
 // evita que wordpress peça para subir plugins e temas via ftp
  define('FS_METHOD','direct');
 
 // ** Configurações do MySQL - Você pode pegar essas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
+//define('DB_NAME', 'u380073355_radio');
 define('DB_NAME', 'vozprofetica');
 
 /** Usuário do banco de dados MySQL */
 define('DB_USER', 'root');
+//define('DB_USER', 'u380073355_idp');
 
 /** Senha do banco de dados MySQL */
+//define('DB_PASSWORD', 'SBDQWEFW6');
 define('DB_PASSWORD', 'geladeira123');
 
 /** nome do host do MySQL */
 define('DB_HOST', 'localhost');
+//define('DB_HOST', 'mysql.hostinger.com.br');
 
 /** Conjunto de caracteres do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8mb4');

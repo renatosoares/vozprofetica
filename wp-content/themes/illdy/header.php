@@ -26,7 +26,19 @@ $preloader_enable = get_theme_mod( 'illdy_preloader_enable', 1 );
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
-		<?php // FIXME: link da rádio ?>
+			<!-- %%%%%%%%%%%%%%%%%%% link radio %%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+			<!-- ######################### mobile #######################-->
+			<center>
+				<div class='admobile'>
+					<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
+					<!-- blue skin - mobile - top page -->
+					<ins class='adsbygoogle adslot_4' data-ad-client='ca-pub-6348990627629179' data-ad-slot='6092435614'></ins>
+					<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+				</div>
+			</center>
+			<!-- ######################### /mobile #######################-->
+
 		<div class="middle radioweb">
 			<div class="half_portion">
 				<center>
@@ -39,8 +51,10 @@ $preloader_enable = get_theme_mod( 'illdy_preloader_enable', 1 );
 					</center>
 				</div>
 			</div>
+			<!-- %%%%%%%%%%%%%%%%%%% /link radio %%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
-		<div class="radionomy-player"></div>
+
+	 <?php // FIXME: 	<div class="radionomy-player"></div> ?>
 		<?php if( $preloader_enable == 1 ): ?>
 			<div class="pace-overlay"></div>
 		<?php endif; ?>
