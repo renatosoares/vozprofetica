@@ -25,32 +25,37 @@ $preloader_enable = get_theme_mod( 'illdy_preloader_enable', 1 );
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<?php wp_head(); ?>
 	</head>
-	<body <?php body_class(); ?>>
+	<body <?php body_class(); ?> onload="enableAutoplay()">
 			<!-- %%%%%%%%%%%%%%%%%%% link radio %%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 			<!-- ######################### mobile #######################-->
-			<center>
-				<div class='admobile'>
-					<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
-					<!-- blue skin - mobile - top page -->
-					<ins class='adsbygoogle adslot_4' data-ad-client='ca-pub-6348990627629179' data-ad-slot='6092435614'></ins>
-					<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
-				</div>
-			</center>
+
 			<!-- ######################### /mobile #######################-->
 
 		<div class="middle radioweb">
+
 			<div class="half_portion">
-				<center>
+				<center><!--
 					<script type="text/javascript" src="http://vozprofeticafm.radio12345.com/flashaacplayer/jwplayer.js.pagespeed.jm.qoLZYYv1uD.js"></script>
 					<script type="text/javascript" src="http://vozprofeticafm.radio12345.com/newflashradio/swfobject.js.pagespeed.jm.emwhrhy4AV.js"></script>
 					<div id="mediaspace">
 						<embed type="application/x-shockwave-flash" src="http://vozprofeticafm.radio12345.com/newflashradio/player.swf" width="500" height="25" style="undefined" id="mpl" name="mpl" quality="high" allowfullscreen="false" allowscriptaccess="always" wmode="opaque" flashvars="title=&amp;file=http://78.129.224.15:38256/;playlist.pls&amp;livestream.message=&amp;plugins=livestream-1&amp;livestream.file=http://78.129.224.15:38256/;playlist.pls&amp;type=sound&amp;backcolor=000000&amp;frontcolor=FFFFFF&amp;lightcolor=FF9900&amp;image=XXX.png&amp;autostart=true&amp;bufferlength=20">
-						</div>
-						<script type="text/javascript">var so=new SWFObject('http://vozprofeticafm.radio12345.com/newflashradio/player.swf','mpl','500','25','9');so.addParam('allowfullscreen','false');so.addParam('allowscriptaccess','always');so.addParam('wmode','opaque');so.addVariable('title','');so.addVariable('file','http://78.129.224.15:38256/;playlist.pls');so.addVariable('livestream.message','');so.addVariable('plugins','livestream-1');so.addVariable('livestream.file','http://78.129.224.15:38256/;playlist.pls');so.addVariable('livestream.message','');so.addVariable('type','sound');so.addVariable('backcolor','000000');so.addVariable('frontcolor','FFFFFF');so.addVariable('lightcolor','FF9900');so.addVariable('image','XXX.png');so.addVariable('autostart','true');so.addVariable('bufferlength','20');so.write('mediaspace');</script>
+					</div>
+						<script type="text/javascript">var so=new SWFObject('http://vozprofeticafm.radio12345.com/newflashradio/player.swf','mpl','500','25','9');so.addParam('allowfullscreen','false');so.addParam('allowscriptaccess','always');so.addParam('wmode','opaque');so.addVariable('title','');so.addVariable('file','http://78.129.224.15:38256/;playlist.pls');so.addVariable('livestream.message','');so.addVariable('plugins','livestream-1');so.addVariable('livestream.file','http://78.129.224.15:38256/;playlist.pls');so.addVariable('livestream.message','');so.addVariable('type','sound');so.addVariable('backcolor','000000');so.addVariable('frontcolor','FFFFFF');so.addVariable('lightcolor','FF9900');so.addVariable('image','XXX.png');so.addVariable('autostart','true');so.addVariable('bufferlength','20');so.write('mediaspace');</script> -->
+						<audio controls autoplay id="myAudio">
+							<source src="http://78.129.224.15:38256/;playlist.pls&amp;livestream.message=&amp;plugins=livestream-1&amp;livestream.file=http://78.129.224.15:38256/;playlist.pls&amp;type=sound&amp;backcolor=000000&amp;frontcolor=FFFFFF&amp;lightcolor=FF9900&amp;image=XXX.png&amp;autostart=true&amp;bufferlength=20" >
+						</audio>
 					</center>
 				</div>
 			</div>
+			<script>
+			var aud = document.getElementById("myAudio");
+			function enableAutoplay() {
+			    aud.autoplay = true;
+			    aud.load();
+			}
+			</script>
+
 			<!-- %%%%%%%%%%%%%%%%%%% /link radio %%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 
