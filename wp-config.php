@@ -14,8 +14,10 @@
  * @package WordPress
  */
  // definindo domínio
- //define('WP_HOME','http://www.vozprofetica.net.br');
- //define('WP_SITEURL','http://www.vozprofetica.net.br');
+#define('WP_HOME','http://www.vozprofetica.net.br');
+#define('WP_SITEURL','http://www.vozprofetica.net.br');
+define('WP_HOME','http://localhost/vozprofetica');
+define('WP_SITEURL','http://localhost/vozprofetica');
 // evita que wordpress peça para subir plugins e temas via ftp
  define('FS_METHOD','direct');
 

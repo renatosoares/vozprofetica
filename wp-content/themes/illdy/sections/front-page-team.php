@@ -43,9 +43,9 @@ $general_entry = get_theme_mod( 'illdy_team_general_entry', esc_html__( 'Meet th
 						'after_title'	=> ''
 					);
 
-					the_widget( 'Illdy_Widget_Person', 'title='. __( 'João Maria', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/front-page-team-1.jpg' ) .'&position='. __( 'Pastor Regional', 'illdy' ) .'&entry='. __( 'Creative, detail-oriented, always focused.', 'illdy' ) .'&facebook_url='. esc_url( '#' ) .'&twitter_url='. esc_url( '#' ) .'&linkedin_url='. esc_url( '#' ) .'&color=#f18b6d', $the_widget_args );
+					the_widget( 'Illdy_Widget_Person', 'title='. __( 'João Maria', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/joao-maria-final.JPG' ) .'&position='. __( 'Pastor Regional', 'illdy' ) .'&entry='. __( 'Locutor da "tardes para Cristo"', 'illdy' ) .'&facebook_url='. esc_url( '#' ) .'&twitter_url='. esc_url( '#' ) .'&linkedin_url='. esc_url( '#' ) .'&color=#f18b6d', $the_widget_args );
 					the_widget( 'Illdy_Widget_Person', 'title='. __( 'Jane  Stenton', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/front-page-team-2.jpg' ) .'&position='. __( 'Lider de Senhoras', 'illdy' ) .'&entry='. __( 'Curious, tech-geeck and gets serious when it comes to work.', 'illdy' ) .'&facebook_url='. esc_url( '#' ) .'&twitter_url='. esc_url( '#' ) .'&linkedin_url='. esc_url( '#' ) .'&color=#f1d204', $the_widget_args );
-					the_widget( 'Illdy_Widget_Person', 'title='. __( 'Gennilson Vianna', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/front-page-team-3.jpg' ) .'&position='. __( 'Ministro de Louvor', 'illdy' ) .'&entry='. __( 'Enthusiastic, passionate with great sense of humor.', 'illdy' ) .'&facebook_url='. esc_url( '#' ) .'&twitter_url='. esc_url( '#' ) .'&linkedin_url='. esc_url( '#' ) .'&color=#6a4d8a', $the_widget_args );
+					the_widget( 'Illdy_Widget_Person', 'title='. __( 'Genilson Vianna', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/genilson-vianna-final.jpg' ) .'&position='. __( 'Ministro de Louvor', 'illdy' ) .'&entry='. __( 'Locutor da "noites boas novas"', 'illdy' ) .'&facebook_url='. esc_url( '#' ) .'&twitter_url='. esc_url( '#' ) .'&linkedin_url='. esc_url( '#' ) .'&color=#6a4d8a', $the_widget_args );
 				endif;
 				?>
 			</div><!--/.row-->
