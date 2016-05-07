@@ -7,11 +7,14 @@
  */
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'blog-post' ); ?>>
-	<?php if( has_post_thumbnail() ): ?>
-		<div class="blog-post-image">
-			<?php the_post_thumbnail( 'illdy-blog-list' ); ?>
-		</div><!--/.blog-post-image-->
-	<?php endif; ?>
+	<!--  coloca a imagem destaque no topo da postagem ***************************** -->
+	<?php // if( has_post_thumbnail() ): ?>
+		<!-- <div class="blog-post-image"> -->
+			<?php // the_post_thumbnail( 'illdy-blog-list' ); ?>
+		<!-- </div> -->
+		<!--/.blog-post-image-->
+	<?php // endif; ?>
+	<!--  *********************************************************************-->
 	<?php do_action( 'mtl_single_entry_meta' ); ?>
 	<h2 class="blog-post-title"><?php the_title(); ?></h2>
 	<div class="blog-post-entry markup-format">
