@@ -62,7 +62,7 @@ $number_of_posts = get_theme_mod( 'illdy_latest_news_number_of_posts', absint( 3
 								<div class="post-entry">
 									<?php the_excerpt(); ?>
 								</div><!--/.post-entry-->
-								<a href="<?php the_permalink(); ?>" title="<?php _e( 'Read more', 'illdy' ); ?>" class="post-button"><i class="fa fa-chevron-circle-right"></i><?php _e( 'Read more', 'illdy' ); ?></a>
+								<a href="<?php the_permalink(); ?>" title="<?php _e( 'Leia mais...', 'illdy' ); ?>" class="post-button"><i class="fa fa-chevron-circle-right"></i><?php _e( 'Leia mais...', 'illdy' ); ?></a>
 							</div><!--/.post-->
 						</div><!--/.col-sm-4-->
 					<?php endwhile; ?>
