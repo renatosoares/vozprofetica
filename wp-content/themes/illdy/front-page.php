@@ -28,6 +28,9 @@ if( get_option( 'show_on_front' ) == 'page' ):
 		get_template_part( 'page' );
 	endif;
 else:
+	if( $latest_news_general == 1 ):
+		get_template_part( 'sections/front-page', 'latest-news' );
+	endif;
 	if( $about_general_show == 1 ):
 		get_template_part( 'sections/front-page', 'about' );
 	endif;
@@ -42,10 +45,6 @@ else:
 
 	if( $services_general_show == 1 ):
 		get_template_part( 'sections/front-page', 'services' );
-	endif;
-
-	if( $latest_news_general == 1 ):
-		get_template_part( 'sections/front-page', 'latest-news' );
 	endif;
 
 	if( $counter_general_show == 1 ):
