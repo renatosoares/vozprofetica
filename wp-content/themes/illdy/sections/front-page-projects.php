@@ -44,7 +44,7 @@ $general_entry = get_theme_mod( 'illdy_projects_general_entry', esc_html__( 'You
 					);
 
 					the_widget( 'Illdy_Widget_Project', 'title='. __( 'Project 1', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/front-page-project-1.jpg' ) .'&url='. esc_url( '#' ), $the_widget_args );
-					the_widget( 'Illdy_Widget_Project', 'title='. __( 'Project 2', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/front-page-project-2.jpg' ) .'&url='. esc_url( '#' ), $the_widget_args );
+					the_widget( 'Illdy_Widget_Project', 'title='. __( 'Project 2', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/mano-rego-louvorzao.jpg' ) .'&url='. esc_url( '#' ), $the_widget_args );
 					the_widget( 'Illdy_Widget_Project', 'title='. __( 'Project 3', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/front-page-project-3.jpg' ) .'&url='. esc_url( '#' ), $the_widget_args );
 					the_widget( 'Illdy_Widget_Project', 'title='. __( 'Project 4', 'illdy' ) .'&image='. esc_url( '/layout/images/front-page/front-page-project-4.jpg' ) .'&url='. esc_url( '#' ), $the_widget_args );
 				endif;
