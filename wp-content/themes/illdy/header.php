@@ -25,7 +25,7 @@ $preloader_enable = get_theme_mod( 'illdy_preloader_enable', 1 );
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<?php wp_head(); ?>
 	</head>
-	<body <?php body_class(); ?> onload="enableAutoplay()">
+	<body <?php body_class(); ?>>
 			<!-- %%%%%%%%%%%%%%%%%%% link radio %%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 			<!-- ######################### mobile #######################-->
@@ -42,19 +42,14 @@ $preloader_enable = get_theme_mod( 'illdy_preloader_enable', 1 );
 						<embed type="application/x-shockwave-flash" src="http://vozprofeticafm.radio12345.com/newflashradio/player.swf" width="500" height="25" style="undefined" id="mpl" name="mpl" quality="high" allowfullscreen="false" allowscriptaccess="always" wmode="opaque" flashvars="title=&amp;file=http://78.129.224.15:38256/;playlist.pls&amp;livestream.message=&amp;plugins=livestream-1&amp;livestream.file=http://78.129.224.15:38256/;playlist.pls&amp;type=sound&amp;backcolor=000000&amp;frontcolor=FFFFFF&amp;lightcolor=FF9900&amp;image=XXX.png&amp;autostart=true&amp;bufferlength=20">
 					</div>
 						<script type="text/javascript">var so=new SWFObject('http://vozprofeticafm.radio12345.com/newflashradio/player.swf','mpl','500','25','9');so.addParam('allowfullscreen','false');so.addParam('allowscriptaccess','always');so.addParam('wmode','opaque');so.addVariable('title','');so.addVariable('file','http://78.129.224.15:38256/;playlist.pls');so.addVariable('livestream.message','');so.addVariable('plugins','livestream-1');so.addVariable('livestream.file','http://78.129.224.15:38256/;playlist.pls');so.addVariable('livestream.message','');so.addVariable('type','sound');so.addVariable('backcolor','000000');so.addVariable('frontcolor','FFFFFF');so.addVariable('lightcolor','FF9900');so.addVariable('image','XXX.png');so.addVariable('autostart','true');so.addVariable('bufferlength','20');so.write('mediaspace');</script> -->
-						<audio controls="controls" id="myAudio">
-							<source src="http://78.129.224.15:38256/;playlist.pls&amp;livestream.message=&amp;plugins=livestream-1&amp;livestream.file=http://78.129.224.15:38256/;playlist.pls&amp;type=sound&amp;backcolor=000000&amp;frontcolor=FFFFFF&amp;lightcolor=FF9900&amp;image=XXX.png&amp;autostart=true&amp;bufferlength=20" >
-						</audio>
+						<audio autoplay controls loop id="myAudio" src="http://78.129.224.15:38256/;playlist.pls&amp;livestream.message=&amp;plugins=livestream-1&amp;livestream.file=http://78.129.224.15:38256/;playlist.pls&amp;type=sound&amp;backcolor=000000&amp;frontcolor=FFFFFF&amp;lightcolor=FF9900&amp;image=XXX.png&amp;autostart=true&amp;bufferlength=20"> </audio>
 					</center>
 				</div>
 			</div>
-			<script>
-			var aud = document.getElementById("myAudio");
-			function enableAutoplay() {
-			    aud.autoplay = true;
-			    aud.load();
-			}
-			</script>
+			<!-- <div >
+				<embed src="http://78.129.224.15:38256/;playlist.pls&amp;livestream.message=&amp;plugins=livestream-1&amp;livestream.file=http://78.129.224.15:38256/;playlist.pls&amp;type=sound&amp;backcolor=000000&amp;frontcolor=FFFFFF&amp;lightcolor=FF9900&amp;image=XXX.png&amp;autostart=true&amp;bufferlength=20" >
+
+			</div> -->
 
 			<!-- %%%%%%%%%%%%%%%%%%% /link radio %%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 

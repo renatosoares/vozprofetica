@@ -63,5 +63,17 @@ $img_footer_logo = get_theme_mod( 'illdy_img_footer_logo', esc_url( get_template
 			</div><!--/.container-->
 		</footer><!--/#footer-->
 		<?php wp_footer(); ?>
+		<script>
+		var aud = document.getElementById("myAudio");
+		function enableAutoplay() {
+				aud.autoplay = true;
+				aud.load();
+		}
+		window.onload = function () {
+			// setTimeOut(function (){ enableAutoplay();}, 5000);
+			myVar = setTimeout(function(){ enableAutoplay(); }, 10000);
+		}
+
+		</script>
 	</body>
 </html>

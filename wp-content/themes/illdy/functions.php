@@ -148,7 +148,7 @@ if(!function_exists('illdy_widgets')) {
 	add_action( 'widgets_init', 'illdy_widgets' );
 
 	function illdy_widgets() {
-		
+
 		// Blog Sidebar
 		register_sidebar( array(
 			'name'			=> esc_html__( 'Blog Sidebar', 'illdy' ),
